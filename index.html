@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora | teste</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>CALCULADORA</h1>
+    <form>
+        <p>
+            Primeiro número: 
+            <input type="text" id="num1">
+        </p>
+        <p>
+            Segundo número: 
+            <input type="text" id="num2">
+        </p>
+        <input type="button" value="+" onclick="calcular(this.value)">
+        <input type="button" value="-" onclick="calcular(this.value)">
+        <input type="button" value="*" onclick="calcular(this.value)">
+        <input type="button" value="/" onclick="calcular(this.value)">
+        
+        <p>
+            Resultado:
+            <input type="text" id="res">
+        </p>
+    </form>
+</body>
+</html>
